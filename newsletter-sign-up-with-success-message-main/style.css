@@ -1,0 +1,136 @@
+body {
+    background-color: hsl(235, 18%, 26%);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 32px 40px;
+}
+
+.wholeForm {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+.wholeForm img {
+    display: block;
+}
+
+.successForm {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.itemList {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+h6 {
+    margin: 0;
+}
+
+.emailBox {
+    width: 100%;
+    max-width: 380px;
+}
+
+.emailTitle {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.emailBox input {
+    width: 100%;
+    padding: 14px 18px;
+    font-size: 16px;
+
+    border: 1px solid #d5d5d5;
+    border-radius: 12px;
+    outline: none;
+
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.emailBox input:focus {
+    border-color: #a06cff;
+    box-shadow: 0 0 0 4px rgba(160, 108, 255, 0.15);
+}
+
+.buttonClass {
+    width: 100%;
+    max-width: 380px;
+    margin-top: 8px;
+
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    padding: 18px 0;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #ff5f7b, #ff9152);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 20px 30px rgba(255, 120, 120, 0.35);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.buttonClass:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 24px 40px rgba(255, 120, 120, 0.6);
+}
+
+
+.disButtonClass {
+    width: 100%;
+    max-width: 380px;
+    margin-top: 8px;
+
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    padding: 18px 0;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #242840);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 20px 30px rgba(120, 181, 255, 0.35);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.disButtonClass:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 24px 40px rgba(120, 185, 255, 0.6);
+}
